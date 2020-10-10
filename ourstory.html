@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ourstory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-ourstory.css">
+</head>
+<body>
+    <header>
+        <div id="head">
+            <div id="left-side-logo"><span style="color: rgb(245, 150, 9);">G</span><span style="color: #ffff;">rowth</span>
+               
+            </div>
+            <div id="right-side-content">
+                <li  onclick="fun1()">Our story</li>
+                <li onclick="fun2()">How it Works</li>
+                <li onclick="fun3()">Browser</li>
+                <li onclick="fun4()"><span style="color:rgb(245, 150, 9) ;">JOIN AS AN XPERT</span></li>
+
+            </div>
+        </div>
+    </header>
+    <div class="growth">
+        <span id="small-size">Growth is</span><br>
+        <span class="large-size">the first #WebLearing website<br></span>
+        <span class="large-size">that enables everyone <br></span>
+        <span class="large-size">to learn from geniuses of every<br></span>
+        <span class="large-size">profession across the globe.</span>
+    </div>
+    <hr>
+    <div class="growth1">
+        <span id="small-size">when we understood</span><br>
+        <span id="large-size">academic learning is<br></span>
+        <span id="large-size">not enough...<br></span><br>
+        <div id="card">
+            <p class="inside-card">
+                We built Xpert, a platform with a knowledge database of<br>
+                 all that world's best have spoken about. We believe <br>
+                 everyone should learn from the best be it by gaining<br>
+                  inspiration from their journeys, learning their techniques<br> 
+                  or staying updated on their achievements. We have only the<br> 
+                  best here who share their hands-on experience to<br>
+                   empower you to make better career moves. To know more<br>
+            </p>
+            <p class="inside-card"><a href="">Click here .</a>
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="card22">
+        <center>
+            <p id="middle">We always stand by</p>
+            <div id="our"><b>our values</b></div><br>
+            <div class="single-line"></div>
+            <br><br><br>
+            <div id="inner-index"><b>#LearnFromTheBest</b></div>
+        </center>
+        <div class="magic">
+            <div class="hello">
+                <p class="if">Our Idols Are Our Best Teachers</p>
+                <p class="there">We emulate our idols. We are<br>
+                     receptive to their opinions & aim to<br>
+                      imbibe their values. They inspire us <br>
+                      to become better versions of <br>
+                      ourselves.</p>
+                <img class="img" src="https://www.xpert.chat/images/s2.png" height="200px" width="260">
+            </div>
+            <div class="hello2">
+                <p class="if">Our Idols Are Our Best Teachers</p>
+                <p class="there">We emulate our idols. We are<br>
+                     receptive to their opinions & aim to<br>
+                      imbibe their values. They inspire us <br>
+                      to become better versions of <br>
+                      ourselves.</p>
+                <img class="img" src="https://www.xpert.chat/images/s2.png" height="150px" width="260">
+            </div>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="last">
+        <center>
+            <p id="last-seen">We have <span id="num">0</span>+ customers</p>
+            <p id="h">Our clients’ review <br>is self explanatory – 4.8/5</p>
+        </center>
+    </div>
+
+    <script>
+        function fun1(){
+            window.open("ourstory.html","_self");
+        }
+        function fun2(){
+            window.open("howitwork.html","_self");
+        } 
+        function fun3(){
+            window.open("how.html","_self");
+        }
+        function fun4(){
+            window.open("join.html","_self");
+        }
+
+        for (var i=0; i<=10000; i++) { 
+        task(i); 
+        } 
+        
+        function task(i) { 
+            setTimeout(function() { 
+                document.getElementById("num").innerHTML = i; 
+            }, 1 * i); 
+        } 
+    </script>
+</body>
+</html>

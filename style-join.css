@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+    z-index: -1;
+}
+
+#head{
+    background-color: rgb(5, 0, 0);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+#left-side-logo{
+    position: relative;
+    top: 1%;
+    left: 4%;
+    font-size: 60px;
+}
+#right-side-content{
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    display: flex;
+    cursor: pointer;
+
+}
+#right-side-content li{
+    padding-top:  30px ;
+    margin-left: 120px;
+    padding-left:20px ;
+    list-style: none;
+    color: #ffff;
+    font-size: 18px;
+}
+.down-head{
+    height: 360px;
+    width: 100%;
+}
+.finally{
+    margin-top: 150px;
+    font-size: 60px;
+    color:rgb(245, 150, 9) ;
+}
+.finally2{
+    font-size: 25px;
+    color: #fff;
+}
+#mybtn{
+    height: 40px;
+    width: 300px;
+    background-color:rgb(245, 150, 9) ;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 20px;
+}
+.down-head2{
+    height: 600px;
+}
+.finally-m{
+    margin-top: 30px;
+    font-size: 60px;
+    color:rgb(245, 150, 9) ;
+}
+.single-line{
+    background-color: rgb(245, 150, 9);
+    height: 2px;
+    width: 100px;
+}
+.divide{
+    display: flex;
+    height: auto;
+}
+.divide img{
+    margin-left: 35%;
+}
+.done{
+    height: 200px;
+    color:#fff;
+}
+.done i{
+    margin-top: 50px;
+    padding: 10px;
+}
+#mybtn4{
+    height: 20px;
+    width:200px;
+    border: 0px;
+    border-radius: 5px;
+    background-color:rgb(245, 150, 9) ;
+}

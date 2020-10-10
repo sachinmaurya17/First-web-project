@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+#head{
+    background-color: rgb(5, 0, 0);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+#left-side-logo{
+    position: relative;
+    top: 1%;
+    left: 4%;
+    font-size: 60px;
+}
+#right-side-content{
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    display: flex;
+    cursor: pointer;
+
+}
+#right-side-content li{
+    padding-top:  30px ;
+    margin-left: 120px;
+    padding-left:20px ;
+    list-style: none;
+    color: #ffff;
+    font-size: 18px;
+}
+#side-mobile-image{
+    background:linear-gradient(to right,black,rgb(68, 66, 66));
+    height: 700px;
+    width: 90%;
+    display: flex;
+}
+#heading-portion{
+   height: 700px;
+   width: 50%;
+}
+#large-size{
+    font-size: 70px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    text-transform: capitalize;
+    color:rgb(245, 150, 9);
+}
+#image-portion{
+    height: 700px;
+    width: 50%;
+   background-image: url("https://www.xpert.chat/images/mobile-in-hand.png");
+   background-repeat: no-repeat;
+   background-position-x: 100%;
+   background-position-y: 100%;
+}
+#learning-app{
+    height: 745px;
+    background-color: black;
+    
+}
+#height-250{
+    height: 250px;
+    
+}
+.color{
+    padding-left: 15%;
+    padding-top: 50px;
+    color:rgb(245, 150, 9) ;
+    font-size: 60px;
+    text-transform: capitalize;
+    
+}
+.single-line{
+    
+    position: relative;
+    top: 4%;
+    left: 43%;
+    height: 5px;
+    width: 60px;
+    background-color:rgb(245, 150, 9) ;
+}
+.center-word{
+    color: gray;
+    font-size: 20px;
+}
+
+#height-400{
+    height: 700px;
+    display: flex;
+}
+#left-side-400{
+    height:700px;
+    width: 50%;
+    display: inline;
+}
+.star-theory{
+    color: white;
+    font-size:21px ;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#right-side-350{
+    height: 700px;
+    width: 50%;
+}
+#first-two{
+    display: flex;
+    margin-top: 9%;
+
+}
+#card1{
+    height: 150px;
+    width: 250px;
+    margin-left: 5%;
+    background-color: white;
+}
+
+#card2{
+    height: 250px;
+    width: 250px;
+    margin-left: 7%;
+    background-color:rgb(245, 150, 9);
+}
+.center-card{
+    font-size: 40px;
+    color:rgb(245, 150, 9) ;
+    text-align: center;
+    
+    padding-top: 20px;
+}
+.center-card1{
+    font-size: 40px;
+    color:#ffff;
+    text-align: center;
+    
+    padding-top: 60px;
+}
+#Second-two{
+    display: flex;
+}
+#card-1{
+    height: 250px;
+    width: 250px;
+    margin-top: -16%;
+    margin-left: 5%;
+    background-color:rgb(245, 150, 9);
+}
+#card-2{
+    height: 150px;
+    width: 250px;
+    margin-top: 4%;
+    margin-left: 7%;
+    background-color: white;
+}
+.horizontal-line{
+    background-color: rgb(59, 59, 59);
+    height: 0.3px;
+    width: 100%;
+}
+.sachin{
+    height: 700px;
+    background-color: black;
+}
+.color1{
+    text-align-last: center;
+    padding-top: 50px;
+    color:rgb(245, 150, 9) ;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+#transform{
+    height: 500px;
+    display: flex;
+
+}
+.text-tranform{
+    height:500px;
+    width:40%;
+    background-color: yellow;
+}
+.ornages-color{
+    margin-top: 20%;
+    margin-left:30%;
+    font-size: 19px;
+    color: rgb(245, 150, 9) ;
+}
+.ornages2-color{
+    margin-top: 3%;
+    margin-left:45%;
+    font-size: 19px;
+    color: rgb(245, 150, 9) ;
+}
+.white-color{
+    margin-left:40%;
+    font-size: 17px;
+    color: white;
+}
+.ornages-color-right{
+    margin-top: 20%;
+    margin-left:10%;
+    font-size: 19px;
+    color: rgb(245, 150, 9) ;
+}
+.ornages2-color-right{
+    margin-top: 3%;
+    margin-left:10%;
+    font-size: 19px;
+    color: rgb(245, 150, 9) ;
+}
+.white-color-right{
+    margin-left:10%;
+    font-size: 17px;
+    color: white;
+}
+#mobile-transform{
+    margin-top: 1%;
+    margin-left: 25px;
+}
+#mobile-transform img{
+    height:460px;
+    width:350px;
+}
+.sachin2{
+    height: 300px;
+    background-color: black;
+}
+.image{
+    height: auto;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.inside-image{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inside-image .image-cart img{
+    height: 250px;
+    width: 250px;
+    filter: grayscale(100%);
+    
+}
+.box{
+
+    height: 40px;
+    width: 250px;
+    background-color:rgba(247, 161, 34, 0.822);
+    text-align: center;
+    color:#ffff;
+    font-size: 25px;
+   
+}
+#text{
+    height: 400px;
+}
+#footer-before{
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    word-spacing: 2px;
+
+}
+#foot{
+    height: 400px;
+}
+.footer-part-writing{
+    margin-left: 7%;
+    margin-top:5%;
+    font-size: 60px;
+    color:rgb(245, 150, 9) ;
+}
+#foot-card-size{
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    
+}
+.foot-card{
+    height: 300px;
+    width: 250px;
+    
+    display: block;
+}
+.fo{
+    font-size: 20px;
+    padding:10px;
+    color: #ffff;
+}
+a{
+    text-decoration: none;
+}
+#ss{
+    height: 3000px;
+    width: 100%;
+}

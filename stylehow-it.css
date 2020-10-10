@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#head{
+    background-color: rgb(5, 0, 0);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+#left-side-logo{
+    position: relative;
+    top: 1%;
+    left: 4%;
+    font-size: 60px;
+}
+#right-side-content{
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    display: flex;
+    cursor: pointer;
+
+}
+#right-side-content li{
+    padding-top:  30px ;
+    margin-left: 120px;
+    padding-left:20px ;
+    list-style: none;
+    color: #ffff;
+    font-size: 18px;
+}
+.image{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://directlinedev.com/media/blog/preview/background_88.normal.jpeg");
+    background-repeat: no-repeat;
+}
+.sachin{
+    height: 700px;
+    background-color: black;
+    display: flex;
+}
+#s{
+    padding-top:10% ;
+    margin-left: 60%;
+    color: rgb(245, 150, 9);
+    font-size: 70px;
+}
+.mybtn1{
+    margin-left: 60%;
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(245, 150, 9);
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.mybtn{
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(245, 150, 9);
+    background-color:rgb(245, 150, 9) ;
+    color: white;
+}
+#img{
+   height: 505px;
+   width: 350px;
+   position:absolute;
+   top:6%;
+   left: 15%;  
+   background-color: transparent;
+}
+.sac1{
+    height: 500px;
+    width: 50%;
+}
+.sac1 video{
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 300px;
+    width: 400px;
+}
+.sac2{
+    height: 500px;
+    width: 50%;
+    display: block;
+}
+.e{
+    color:rgb(245, 150, 9) ;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.f{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 100px;
+    word-spacing: 3px;
+}

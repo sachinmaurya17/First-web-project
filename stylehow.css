@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+#head{
+    background-color: rgb(5, 0, 0);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+#left-side-logo{
+    position: relative;
+    top: 1%;
+    left: 4%;
+    font-size: 60px;
+}
+#right-side-content{
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    display: flex;
+    cursor: pointer;
+
+}
+#right-side-content li{
+    padding-top:  30px ;
+    margin-left: 120px;
+    padding-left:20px ;
+    list-style: none;
+    color: #ffff;
+    font-size: 18px;
+}
+.image{
+    height: auto;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.inside-image{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inside-image .image-cart img{
+    height: 250px;
+    width: 250px;
+    filter: grayscale(100%);
+    
+}
+.box{
+
+    height: 40px;
+    width: 250px;
+    background-color:rgba(247, 161, 34, 0.822);
+    text-align: center;
+    color:#ffff;
+    font-size: 25px;
+   
+}
+.color1{
+    text-align-last: center;
+    margin-top: 5%;
+    color:rgb(245, 150, 9) ;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.single-line{
+    
+    margin-left:50%;
+    background-color:rgb(245, 150, 9) ;
+    height:2px;
+    width: 100px;
+}
+#how{
+    color: #ffff;
+    font-size: 20px;
+    word-spacing:3px;
+}
+#icon{
+   margin-top: 80px;
+   height: 25px;
+   width: 300px;
+   font-size: 20px;
+   cursor: pointer;
+
+}
+#icon i{
+   color:rgb(245, 150, 9);
+}
